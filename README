@@ -1,0 +1,11 @@
+# Stuff to not forget because I always forget it
+
+pkg_add git wget freetype harfbuzz feh
+
+## xsession stuff
+
+/etc/X11/xenodm
+
+Xsetup_0 > tirar o Xconsole
+
+$(HOME)/.xsession > iniciar os bagui
