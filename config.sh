@@ -5,8 +5,15 @@ if [ $EUID -ne 0 ]
 	exit
 fi
 
-pkg_add feh freetype neofetch
+#pkgs
+pkg_add git wget freetype harfbuzz feh iridium rtorrent neofetch neovim \
+        flameshot htop keepassxc colorls
+
+
+#cfgs
+
+mv configs/* ~/
 
 WALLPAPER=
-
 mv Wallpapers/$WALLPAPER ~/.background
+

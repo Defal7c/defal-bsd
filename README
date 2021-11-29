@@ -1,6 +1,13 @@
 # Stuff to not forget because I always forget it
 
-pkg_add git wget freetype harfbuzz feh
+pkg_add git wget freetype harfbuzz feh iridium rtorrent neofetch neovim \
+        flameshot htop keepassxc unzip
+
+Librewolf
+https://pkg.weird.cafe/pub/OpenBSD/7.0/packages/amd64/librewolf-94.0.tgz
+
+wget https://pkg.weird.cafe/pub/OpenBSD/weird-pkg.pub
+mv weird-pkg.pub /etc/signify/
 
 ## xsession stuff
 
